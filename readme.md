@@ -24,7 +24,7 @@ Period 1---->
 <7>What I have modify?  Use this `git diff ***` 
 
 
-Period 2---->( go back to the history version)
+Period 2---->( go back to the history version )
 <1>.`git log` Want much more simple one??? Use this:: `git log --pretty=oneline`
 
 <2>. BACK TO THE PERVIOUS VERSION: `git reset --hard HEAD^`, which means go
@@ -40,7 +40,16 @@ e6c1ec6 HEAD@{2}: commit: The third time modify
 420fc57 HEAD@{3}: commit: another commit(hello-world's)
 c86920c HEAD@{4}: commit: this is commit note again
 9582e93 HEAD@{5}: commit (initial): readme.txt提交
+
 git reset --hard e6c1ec6,then back to the newest version.
+
+
+Period 3---->( Difference of 工作区 and 暂存区 )
+
+工作区：就是电脑上看到的目录，比如testgit里的文件(.git目录除外,it is repository)
+
+版本库：.git/ directory.其中有很多的东西，最终要的就是stage(暂存区).还有Git
+为我们自动创建了的第一分支master,以及指向master的一个指针HEAD.
 
 
 
