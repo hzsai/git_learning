@@ -1,4 +1,5 @@
 note about git
+Period 1---->
         1.`git config --global user.name "HezhenShen"`
         2.`git config --global user.email "hzs1234567szh@gmail.com"` 
 
@@ -16,5 +17,13 @@ note about git
 <5>.`git status` 查看状态，一般没有改变会没有提示
 
 <!--- --->(once been modified, it can be found)
+
+<6>.Once you modify the file, you could `git status` to check it, then `git add ***`
+`git commit -m "something you want to say"`
+
+<7>What I have modify? `git diff ***` 
+
+Period 2---->
+
 
 
