@@ -56,5 +56,11 @@ As we mention before :
                             git state2: git commit--> to add the stage file
                                         to master brunch
 
+Back to the last version:
+        1: edit it directly
+        2: git reset --hard HEAD^
+another---->git checkout -- readme.md  TO REMOVE THE EDITED PART DIRECTLY!!!
+        And this must noted: git checkout readme.md TO (BUILD)ADD A(NEW) BRUNCH
+
 
 
