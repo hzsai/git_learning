@@ -32,7 +32,7 @@ back to the last version, and `HEAD^^`means two before the current one.And
 you can guest `HEAD^^^^^...` means ^^^^^... one before the current one.Another
 easier way is `git reset --hard HEAD~100(n)` back to the 100(n)'s version.
 
-<3>.Suppose you have been the previous version,How can i go back??????????
+<3>.Suppose you have been the previous version,How can you go back??????????
 Get it!-->`git reflog` to check its 版本号, example below
 e6c1ec6 HEAD@{0}: reset: moving to e6c1ec6
 420fc57 HEAD@{1}: reset: moving to HEAD^
@@ -50,6 +50,11 @@ Period 3---->( Difference of 工作区 and 暂存区 )
 
 版本库：.git/ directory.其中有很多的东西，最终要的就是stage(暂存区).还有Git
 为我们自动创建了的第一分支master,以及指向master的一个指针HEAD.
+
+As we mention before :
+                git state1: git add--> to add the file to 'stage'
+                            git state2: git commit--> to add the stage file
+                                        to master brunch
 
 
 
