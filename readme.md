@@ -63,4 +63,6 @@ another---->git checkout -- readme.md  TO REMOVE THE EDITED PART DIRECTLY!!!
         And this must noted: git checkout readme.md TO (BUILD)ADD A(NEW) BRUNCH
 
 
+删除文件：
+edited 2016/3/1
 
