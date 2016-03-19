@@ -66,3 +66,16 @@ another---->git checkout -- readme.md  TO REMOVE THE EDITED PART DIRECTLY!!!
 删除文件：
 edited 2016/3/1
 
+...or create a new repository on the command line
+        echo "#git_learning" >> README.md
+        git init 
+        git add README.md
+        git commit -m "some note"
+        git remote add https://github.com/hzsai/git_learning.git
+        git push -u origin master
+
+...or push an existing repository frome the command line
+        git remote add origin https://github.com/hzsai/git_learning.git
+        git push -u origin master
+
+ 
