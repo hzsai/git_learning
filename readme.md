@@ -76,6 +76,7 @@ edited 2016/3/1
 
 ...or push an existing repository frome the command line
         git remote add origin https://github.com/hzsai/git_learning.git
-        git push -u origin master
+        git push -u origin master //in the first time to use associate with the remote 
+        git push origin master
 
  
