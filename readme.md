@@ -80,3 +80,12 @@ edited 2016/3/1
         git push origin master
 
  
+sync a github repo to computer
+        :git init //to initial a dictoery
+        :git add . //add all file to to stage
+        :git commit -m "commit all file"
+        :git remote add origin https://gihub.com/hzsai/github_example
+                        //assoicate with github_example repo
+        :git pull origin master //as it say ' to pull from remote
+        :git push -u origin master //to add your local file to the remote
+                                // -u is needed to ... 
