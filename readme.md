@@ -89,3 +89,8 @@ sync a github repo to computer
         :git pull origin master //as it say ' to pull from remote
         :git push -u origin master //to add your local file to the remote
                                 // -u is needed to ... 
+
+Learning in create github Page:
+        There are two mathods  in building a GithubPage:
+                That is : 1: create it automatically via the repo's settings page
+                          2: create repo "username.github.io", then clone it, edit it :).
