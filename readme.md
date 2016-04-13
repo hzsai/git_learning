@@ -94,3 +94,5 @@ Learning in create github Page:
         There are two mathods  in building a GithubPage:
                 That is : 1: create it automatically via the repo's settings page
                           2: create repo "username.github.io", then clone it, edit it :).
+
+
